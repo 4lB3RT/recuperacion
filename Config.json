@@ -1,0 +1,10 @@
+{
+    
+    "driver":"mysql",
+    "dbname":"fitxdb",
+    "dbhost":"localhost",
+    "dbuser":"fitxdb",
+    "dbpass":"toor",
+    "apli":"FITXDB"
+    
+}
