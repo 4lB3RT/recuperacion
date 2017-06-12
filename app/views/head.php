@@ -2,10 +2,16 @@
 <html lang="ca">
     <head>
         <meta charset="utf-8">
-        <style type="text/css">
-            @import "<?php echo APP_W.'/public/css/mstyle.css'?>";
-            
-        </style>
+            <link rel="stylesheet" href="<?= 'public/css/bootstrap.min.css'; ?>">
+            <link rel="stylesheet" href="<?= 'public/css/mstyle.css'; ?>">
         <title>Portada DEMO</title>
     </head>
-    
+    <body>
+    <header>
+        <ul>
+            <li>
+                <h1>Recuperación</h1>
+            </li>
+        </ul>
+
+    </header>

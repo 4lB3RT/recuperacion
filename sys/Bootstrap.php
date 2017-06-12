@@ -13,7 +13,7 @@
 
 		function init(){
 			$request=$_SERVER['REQUEST_URI'];
-			$path=explode('/',trim($request,'/'));
+			$path=explode('/',trim($request));
 			
 			array_shift($path);
 			
@@ -24,7 +24,7 @@
 		}
 		function route(){
 			$cont=$this->_controller;
-			$control=APP.DS.'controllers/'.strtolower($this->_controller.'.php');
+			$control=APP.'controllers/'.strtolower($this->_controller.'.php');
 			
 
 			if (is_readable($control)){

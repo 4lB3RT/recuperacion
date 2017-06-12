@@ -1,5 +1,5 @@
 <?php
-		define('DEF_CONTROLLER','index');
+		define('DEF_CONTROLLER','login');
 		define('DEF_ACTION','index');
 		define('ROOT',realpath(dirname(__FILE__)));
 		define('DS',DIRECTORY_SEPARATOR);

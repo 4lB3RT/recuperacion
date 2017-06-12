@@ -1,7 +1,7 @@
 <body>
 	<header>
 		<h1>Exemple</h1>
-		<p> <?php 
+		<p> <?php
 				echo $_SESSION['apli'];
 			?>
 			</p>

@@ -5,7 +5,7 @@
 
 
 		function __construct(){
-			$this->_view=new iview();
+			$this->_view=new iview('ilogin');
 			$this->_model=new imodel();
 			
 		}
